@@ -7,7 +7,7 @@ use yii\helpers\Inflector;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'lo\plugins\controllers';
+    public $controllerNamespace = 'esoftslimited\plugins\controllers';
     public $defaultRoute = 'item';
 
     // Directory

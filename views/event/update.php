@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model lo\plugins\models\Event */
+/* @var $model esoftslimited\plugins\models\Event */
 
 $this->title = Yii::t('plugin', 'Update {modelClass}: ', [
     'modelClass' => 'Event',

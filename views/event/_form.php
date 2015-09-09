@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 use lo\widgets\Jsoneditor;
 
 /* @var $this yii\web\View */
-/* @var $model lo\plugins\models\Event */
+/* @var $model esoftslimited\plugins\models\Event */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

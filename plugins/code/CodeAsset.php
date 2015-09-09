@@ -1,5 +1,5 @@
 <?php
-namespace lo\plugins\plugins\code;
+namespace esoftslimited\plugins\plugins\code;
 
 use yii\web\AssetBundle;
 

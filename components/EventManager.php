@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace lo\plugins\components;
+namespace esoftslimited\plugins\components;
 
 use yii\base\Component;
 use yii\base\Event;

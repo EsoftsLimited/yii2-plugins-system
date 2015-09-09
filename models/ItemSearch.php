@@ -1,14 +1,14 @@
 <?php
 
-namespace lo\plugins\models;
+namespace esoftslimited\plugins\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use lo\plugins\models\Item;
+use esoftslimited\plugins\models\Item;
 
 /**
- * ItemSearch represents the model behind the search form about `lo\plugins\models\Item`.
+ * ItemSearch represents the model behind the search form about `esoftslimited\plugins\models\Item`.
  */
 class ItemSearch extends Item
 {

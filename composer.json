@@ -1,6 +1,6 @@
 {
     "name": "loveorigami/yii2-plugins-system",
-    "description": "Plugins system as WP for Yii2",
+    "description": "Plugins system as WP for Yii2 copied from loveorigami for learning purpose",
     "keywords": ["yii2", "plugin", "event", "yii2-plugin"],
     "type": "yii2-extension",
     "license": "MIT",
@@ -10,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "LoveOrigami",
+            "name": "Plugin Systems",
             "homepage": "https://github.com/loveorigami/"
         }
     ],
@@ -22,7 +22,14 @@
     },
     "autoload": {
         "psr-4": {
-            "lo\\plugins\\": ""
+            "esoftslimited\\plugins\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "esoftslimited\\plugins\\Bootstrap",        
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }

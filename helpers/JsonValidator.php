@@ -1,6 +1,6 @@
 <?php
 
-namespace lo\plugins\helpers;
+namespace esoftslimited\plugins\helpers;
 
 use yii\validators\Validator;
 use Yii;

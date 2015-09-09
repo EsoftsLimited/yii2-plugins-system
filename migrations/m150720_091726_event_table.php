@@ -46,7 +46,7 @@ class m150720_091726_event_table extends Migration
 
         $this->insert('{{%plugins__item}}', [
             'id' => 1,
-            'handler_class' => 'lo\plugins\plugins\code\Code',
+            'handler_class' => 'esoftslimited\plugins\plugins\code\Code',
             'name' => 'Code Highlighting plugin',
             'status' => 1,
         ]);

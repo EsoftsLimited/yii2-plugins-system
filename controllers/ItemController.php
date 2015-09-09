@@ -1,14 +1,14 @@
 <?php
 
-namespace lo\plugins\controllers;
+namespace esoftslimited\plugins\controllers;
 
 use Yii;
 
-use lo\plugins\models\App;
-use lo\plugins\models\Item;
-use lo\plugins\models\ItemSearch;
-use lo\plugins\models\Event;
-use lo\plugins\helpers\Crawler;
+use esoftslimited\plugins\models\App;
+use esoftslimited\plugins\models\Item;
+use esoftslimited\plugins\models\ItemSearch;
+use esoftslimited\plugins\models\Event;
+use esoftslimited\plugins\helpers\Crawler;
 
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

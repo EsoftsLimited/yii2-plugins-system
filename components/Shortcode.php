@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2015 Loveorigami
  * @license http://www.yiiframework.com/license/
  */
-namespace lo\plugins\components;
+namespace esoftslimited\plugins\components;
 
 class Shortcode extends \tpoxa\shortcodes\Shortcode
 {

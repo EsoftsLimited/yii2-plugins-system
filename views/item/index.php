@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel lo\plugins\models\ItemSearch */
+/* @var $searchModel esoftslimited\plugins\models\ItemSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('plugin', 'Items');

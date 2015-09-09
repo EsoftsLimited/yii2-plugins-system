@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ListView;
 
 /* @var $this yii\web\View */
-/* @var $model lo\plugins\models\Item */
+/* @var $model esoftslimited\plugins\models\Item */
 
 $this->title = Yii::t('plugin', 'Install');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('plugin', 'Items'), 'url' => ['info']];

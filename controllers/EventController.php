@@ -1,10 +1,10 @@
 <?php
 
-namespace lo\plugins\controllers;
+namespace esoftslimited\plugins\controllers;
 
 use Yii;
-use lo\plugins\models\Event;
-use lo\plugins\models\EventSearch;
+use esoftslimited\plugins\models\Event;
+use esoftslimited\plugins\models\EventSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

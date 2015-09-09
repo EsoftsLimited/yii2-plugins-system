@@ -32,7 +32,7 @@ Let's start with defining module in `@backend/config/main.php`:
 ```php
 'modules' => [
     'plugins' => [
-        'class' => 'lo\plugins\Module',
+        'class' => 'esoftslimited\plugins\Module',
         'pluginsDir'=>[
             '@lo/plugins/plugins', // default dir with core plugins
             // '@common/plugins', // dir with our plugins
@@ -49,7 +49,7 @@ Next, open `@frontend/config/main.php` and add following:
 ...
 'components' => [
     'plugins' => [
-        'class' => 'lo\plugins\components\EventBootstrap',
+        'class' => 'esoftslimited\plugins\components\EventBootstrap',
         'appId' => 'frontend'
     ],
     ...
@@ -63,7 +63,7 @@ Also do the same thing with `@backend/config/main.php`:
 ...
 'components' => [
     'plugins' => [
-        'class' => 'lo\plugins\components\EventBootstrap',
+        'class' => 'esoftslimited\plugins\components\EventBootstrap',
         'appId' => 'backend'
     ],
     ...

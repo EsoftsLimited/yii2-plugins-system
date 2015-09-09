@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel lo\plugins\models\EventSearch */
+/* @var $searchModel esoftslimited\plugins\models\EventSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('plugin', 'Events');

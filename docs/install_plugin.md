@@ -5,7 +5,7 @@ After [creating](create_plugin.md) your `Test` plugin first, you must make sure 
 ```php
 'modules' => [
     'plugins' => [
-        'class' => 'lo\plugins\Module',
+        'class' => 'esoftslimited\plugins\Module',
         'pluginsDir'=>[
             '@lo/plugins/plugins', // default dir with core plugins
             '@common/plugins', // dir with our plugins

@@ -1,5 +1,5 @@
 <?php
-namespace lo\plugins\plugins\helloworld;
+namespace esoftslimited\plugins\plugins\helloworld;
 /**
  * Plugin Name: Hello World
  * Plugin URI: https://github.com/loveorigami/yii2-plugins-system/plugins/helloworld

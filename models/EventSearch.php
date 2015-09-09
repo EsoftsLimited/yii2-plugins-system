@@ -1,14 +1,14 @@
 <?php
 
-namespace lo\plugins\models;
+namespace esoftslimited\plugins\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use lo\plugins\models\Event;
+use esoftslimited\plugins\models\Event;
 
 /**
- * EventSearch represents the model behind the search form about `lo\plugins\models\Event`.
+ * EventSearch represents the model behind the search form about `esoftslimited\plugins\models\Event`.
  */
 class EventSearch extends Event
 {

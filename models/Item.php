@@ -1,6 +1,6 @@
 <?php
 
-namespace lo\plugins\models;
+namespace esoftslimited\plugins\models;
 
 use Yii;
 

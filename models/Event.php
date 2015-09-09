@@ -1,9 +1,9 @@
 <?php
 
-namespace lo\plugins\models;
+namespace esoftslimited\plugins\models;
 
 use Yii;
-use lo\plugins\helpers\JsonValidator;
+use esoftslimited\plugins\helpers\JsonValidator;
 
 /**
  * This is the model class for table "{{%plugins__event}}".

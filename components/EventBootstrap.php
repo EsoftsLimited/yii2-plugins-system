@@ -4,12 +4,12 @@
  * @copyright Copyright (c) 2014 Galament
  * @license http://www.yiiframework.com/license/
  */
-namespace lo\plugins\components;
+namespace esoftslimited\plugins\components;
 
 use yii\base\BootstrapInterface;
 use yii\base\Application;
 
-use lo\plugins\models\Event as ModelEvent;
+use esoftslimited\plugins\models\Event as ModelEvent;
 
 /**
  * Bootstrap class initiates event manager.
@@ -74,7 +74,7 @@ class EventBootstrap implements BootstrapInterface
 
         $app->setComponents([
             'eventManager' => [
-                'class' => 'lo\plugins\components\EventManager',
+                'class' => 'esoftslimited\plugins\components\EventManager',
                 'events' => self::$_eventManager
             ],
         ]);

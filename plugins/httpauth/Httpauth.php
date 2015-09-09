@@ -1,5 +1,5 @@
 <?php
-namespace lo\plugins\plugins\httpauth;
+namespace esoftslimited\plugins\plugins\httpauth;
 
 use Yii;
 use yii\web\UnauthorizedHttpException;

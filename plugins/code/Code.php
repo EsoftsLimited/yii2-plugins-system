@@ -1,7 +1,7 @@
 <?php
-namespace lo\plugins\plugins\code;
+namespace esoftslimited\plugins\plugins\code;
 
-use lo\plugins\components\Shortcode;
+use esoftslimited\plugins\components\Shortcode;
 
 /**
  * Plugin Name: Code Highlighting
